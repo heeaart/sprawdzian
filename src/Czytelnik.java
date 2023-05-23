@@ -11,7 +11,7 @@ import java.util.List;
 public class Czytelnik extends Osoba {
     public List<Ksiazka> przeczytane;
 
-    private Czytelnik(String imie, String nazwisko, int wiek) {
+    Czytelnik(String imie, String nazwisko, int wiek) {
         super(imie, nazwisko, wiek);
         przeczytane = new ArrayList<>();
     }
